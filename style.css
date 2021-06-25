@@ -1,0 +1,141 @@
+:root {
+  --green: #ff7700;
+  --green-dark: #d05500;
+  --light-grey: #f1f4f6;
+  --dark: #000000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Misc styling */
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.display-1 {
+  letter-spacing: 1px;
+}
+
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.btn {
+  border: 2px solid #fff;
+  border-radius: 1.5rem;
+  padding: 0.6rem 0;
+  width: 160px;
+}
+
+/* Header styles */
+header {
+  height: 40vh;
+}
+
+.navbar-brand .fa {
+  font-size: 1.3rem;
+}
+
+.nav-icons p {
+  font-size: 1rem;
+  margin-right: 0.6rem;
+}
+
+.btn-header:hover {
+  background-color: #fff;
+  color: var(--dark) !important;
+}
+
+.phone-img img {
+  width: 500px;
+}
+
+/* Section one styles */
+.bg-grey {
+  background-color: var(--light-grey);
+}
+
+.circle-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: var(--green);
+}
+
+.lh-lg {
+  line-height: 1.7 !important;
+}
+
+/* Section two styles */
+.btn-green {
+  background-color: var(--green);
+  color: #fff;
+  padding: 0.55rem 0;
+  width: 140px;
+}
+
+.btn-green:hover {
+  color: var(--green);
+  background-color: #fff;
+  border-color: var(--green);
+}
+
+/* Section three styles */
+.bg-green {
+  background-color: var(--green) !important;
+}
+
+.text-green {
+  color: var(--green) !important;
+}
+
+/* Section six styles */
+#section-six {
+  background: linear-gradient(rgba(255, 119, 0, 0.9), rgba(255, 119, 0, 0.9)),
+    url(https://images.unsplash.com/photo-1531986362435-16b427eb9c26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3300&q=80)
+      center / cover no-repeat;
+}
+
+#section-six .circle-icon {
+  width: 95px;
+  height: 95px;
+}
+
+/* Section seven styles */
+#section-seven .card {
+  border: none;
+}
+
+/* Section 8 testimonials */
+#testimonials .carousel-item img {
+  width: max-content;
+  height: max-content;
+}
+
+/* Section 9 Pricing */
+.pricing-item {
+  border-radius: 0.3rem;
+  overflow: hidden;
+  max-width: 340px;
+}
+
+.pricing-title {
+  background-color: var(--green-dark);
+}
+
+.pricing-price,
+.pricing-item ul li {
+  border-bottom: 1px solid #ffffff59;
+  padding: 0.9rem 0;
+}
+
+.pricing-item .btn:hover {
+  background-color: transparent !important;
+  color: #fff !important;
+}
